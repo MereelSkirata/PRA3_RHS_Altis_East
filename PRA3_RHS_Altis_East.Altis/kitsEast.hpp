@@ -19,7 +19,7 @@ class Kits {
 
         // Primary weapon
         primaryWeapon = "rhs_weap_ak74m_camo_npz";
-        primaryAttachments[] = {"rhsusf_acc_compm4","rhsusf_acc_eotech_552"};
+        primaryAttachments[] = {"rhsusf_acc_eotech_552"};
         primaryMagazine = "rhs_30Rnd_545x39_AK";
         primaryMagazineCount = 5;
         primaryMagazineTracer = "rhs_30Rnd_545x39_7N10_AK";
@@ -33,7 +33,7 @@ class Kits {
         // Handgun weapon
         handgunWeapon = "hgun_Rook40_F";
         handgunMagazine = "16Rnd_9x21_Mag";
-        handgunMagazineCount = 2;
+        handgunMagazineCount = 3;
 
         // Uniform
         uniform = "rhs_uniform_flora_patchless";
@@ -54,7 +54,7 @@ class Kits {
 
         secondaryWeapon = "Binocular";
 
-        primaryAttachments[] = {"optic_Arco","acc_pointer_IR"};
+        primaryAttachments[] = {"rhsusf_acc_eotech_552"};
         backpack = "B_TacticalPack_ocamo";
         items[] = {{"FirstAidKit", 3}, {"HandGrenade", 2}, {"SmokeShell", 4}, {"SmokeShellGreen", 3}, {"SmokeShellRed", 3}};
         icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";
@@ -86,7 +86,7 @@ class Kits {
         displayName = "Automatic Rifleman";
 
         primaryWeapon = "rhs_weap_pkm";
-        primaryAttachments[] = {"acc_pointer_IR","bipod_01_F_blk"};
+        primaryAttachments[] = {};
         primaryMagazine = "rhs_100Rnd_762x54mmR";
         primaryMagazineCount = 2;
         primaryMagazineTracer = "rhs_100Rnd_762x54mmR_green";
@@ -114,7 +114,7 @@ class Kits {
         displayName = "Marksman";
 
         primaryWeapon = "rhs_weap_svdp_wd";
-        primaryAttachments[] = "rhs_acc_pso1m2"
+        primaryAttachments[] = {"rhs_acc_pso1m2"};
 
         primaryMagazine = "rhs_10Rnd_762x54mmR_7N1";
         primaryMagazineCount = 10;
