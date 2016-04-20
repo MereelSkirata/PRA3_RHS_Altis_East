@@ -18,10 +18,10 @@ class Kits {
         isCrew = 0;
 
         // Primary weapon
-      	primaryWeapon = "rhs_weap_m16a4_carryhandle_grip";
+      	primaryWeapon = "rhs_weap_m4a1_carryhandle_grip";
         primaryAttachments[] = {"rhsusf_acc_eotech_552"};
         primaryMagazine = "30Rnd_556x45_Stanag";
-        primaryMagazineCount = 6;
+        primaryMagazineCount = 7;
         primaryMagazineTracer = "30Rnd_556x45_Stanag_Tracer_Red";
         primaryMagazineTracerCount = 3;
 
@@ -31,19 +31,19 @@ class Kits {
         secondaryMagazineCount = 0;
 
         // Handgun weapon
-        handgunWeapon = "rhsusf_weap_m9";
-        handgunMagazine = "rhsusf_mag_15Rnd_9x19_JHP";
+        handgunWeapon = "rhsusf_weap_glock17g4";
+        handgunMagazine = "rhsusf_mag_17Rnd_9x19_JHP";
         handgunMagazineCount = 3;
 
         // Uniform
-        uniform = "rhs_uniform_cu_ocp";
-        vest = "rhsusf_iotv_ocp_Rifleman";
-        backpack = "rhsusf_assault_eagleaiii_ocp";
-        headGear = "rhsusf_opscore_mc_cover_pelt";
+        uniform = "rhs_uniform_FROG01_wd";
+        vest = "V_PlateCarrier2_rgr";
+        backpack = "rhsusf_assault_eagleaiii_coy";
+        headGear = "rhsusf_lwh_helmet_marpatwd_ess";
 
         // Items
         assignedItems[] = {"ItemWatch", "ItemCompass", "ItemRadio", "ItemMap", "ItemGPS"};
-        items[] = {{"FirstAidKit", 3}, {"HandGrenade", 2}, {"SmokeShell", 2}, "SmokeShellGreen", "SmokeShellRed"};
+        items[] = {{"FirstAidKit", 3}, {"HandGrenade", 2}, {"SmokeShell", 2}, "SmokeShellGreen", "SmokeShellRed","ACRE_PRC152",};
     };
     class Officer: Rifleman {
         availableInGroups[] = {"Rifle", "Weapon"};
